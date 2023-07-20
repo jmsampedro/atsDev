@@ -15,7 +15,7 @@ pipeline{
 
     stage('Clean Test'){
       steps{
-        sh 'cd C:\Users\john.sampedro\eclipse-workspace\ATS\WaveRoster'
+        sh 'cd C:\Users\john.sampedro\eclipse-workspace\ATS\WaveRoster\'
         sh 'mvn clean test'
         echo 'Success'
       }
