@@ -15,7 +15,7 @@ pipeline{
 
     stage('Clean Test'){
       steps{
-        sh 'cd /var/lib/jenkins/workspace/WaveRoster'
+        sh 'cd /var/lib/jenkins/workspace/WaveRoster/WaveRoster'
         sh 'mvn clean test'
         echo 'Success'
       }
